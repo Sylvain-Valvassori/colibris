@@ -1,0 +1,9 @@
+@use './Scss_library' as *;
+
+html{
+    color: $clr-secondary;
+    background-color: $clr-main;
+
+    font-size: 2rem;
+    font-family: $fnt-secondary;
+}

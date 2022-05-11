@@ -20,7 +20,7 @@ body {
 
 nav{
 
-    margin: 2rem 0 3rem 0;
+    margin: 2rem 0;
 
     li{
         display: inline-block;
@@ -48,14 +48,13 @@ nav{
 
 section{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     gap: 5rem;
 
     
     .heading{
     
-        margin-top: 2rem;
         width: 50%;
 
         h2{
@@ -88,7 +87,7 @@ section{
             font-weight: 600;
             font-size: .6rem;
 
-            transition: all .6s ease;
+            transition: all .3s ease;
 
             &:hover{
                 background-color: $clr-P2-C2;

@@ -68,7 +68,7 @@ body {
 }
 
 nav {
-  margin: 2rem 0 3rem 0;
+  margin: 2rem 0;
 }
 nav li {
   display: inline-block;
@@ -89,12 +89,11 @@ nav li:hover {
 
 section {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   gap: 5rem;
 }
 section .heading {
-  margin-top: 2rem;
   width: 50%;
 }
 section .heading h2 {
@@ -120,7 +119,7 @@ section .heading button {
   color: #e87787;
   font-weight: 600;
   font-size: 0.6rem;
-  transition: all 0.6s ease;
+  transition: all 0.3s ease;
 }
 section .heading button:hover {
   background-color: #e87787;

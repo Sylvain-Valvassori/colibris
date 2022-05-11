@@ -1,4 +1,4 @@
-<p align="right"><img src="https://badgen.net/badge/MADE BY/Sylvain Valvassori/black"> <img src="https://badgen.net/github/last-commit/Sylvain-Valvassori/react-movie/main"> <img src="https://badgen.net/github/release/Sylvain-Valvassori/react-movie/black?icon=bitcoin-lightning"> 
+<p align="right"><img src="https://badgen.net/badge/MADE BY/Sylvain Valvassori/black"> <img src="https://badgen.net/github/last-commit/Sylvain-Valvassori/colibris/main"> <img src="https://badgen.net/github/release/Sylvain-Valvassori/react-movie/black?icon=bitcoin-lightning"> 
 
 <br><br>
 

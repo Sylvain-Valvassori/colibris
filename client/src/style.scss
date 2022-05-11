@@ -1,9 +1,145 @@
 @use './Scss_library' as *;
 
 html{
-    color: $clr-secondary;
+    color: $clr-white;
     background-color: $clr-main;
 
     font-size: 2rem;
     font-family: $fnt-secondary;
+    
+    background-image: url('./src/images/Bg2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
+body {
+    padding: 0 10rem;
+}
+
+
+nav{
+
+    margin: 2rem 0 3rem 0;
+
+    li{
+        display: inline-block;
+        
+        color: $clr-white;
+        font-size: 1rem;
+        font-weight: 600;
+        font-family: $fnt-main;
+        
+        margin-left: 1rem;
+        transition: all .4s ease;
+
+
+        &:first-child {
+            margin-left: 0;
+        }
+
+        &:hover {
+            color: $clr-accent;
+            font-weight: 600;
+
+        }
+    }
+}
+
+section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 5rem;
+
+    
+    .heading{
+    
+        margin-top: 2rem;
+        width: 50%;
+
+        h2{
+            font-family: $fnt-main;
+            font-size: 4rem;
+            font-weight: 500;
+            line-height: 4rem;
+        }
+    
+        p{
+            font-family: $fnt-secondary;
+            font-size: .5rem;
+            font-weight: 400;
+            color: $clr-white-opacity-06;
+    
+            width: 85%;
+            margin-top: 1rem;
+        }
+    
+        button{
+            cursor: pointer;
+
+            margin-top: 1rem;
+            border: none;
+            padding: .4rem .8rem;
+    
+            background-color: $clr-P2-C0;
+    
+            color: $clr-P2-C2;
+            font-weight: 600;
+            font-size: .6rem;
+
+            transition: all .6s ease;
+
+            &:hover{
+                background-color: $clr-P2-C2;
+                color: $clr-P2-C0;
+
+            }
+        }
+    }
+
+    .colibriCard{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        width: 12rem;
+        height: 20rem;
+    
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 6rem;
+        
+        video{
+            position: relative;
+
+            min-width: 22rem;
+            height:auto;
+
+            filter: brightness(1.2);
+        }
+
+        &#colibriOne{
+            background-image: url('./src/images/Bg_pink2.png');
+            video{
+                filter: hue-rotate(318deg);
+            }
+        }
+        &#colibriTwo{
+            background-image: url('./src/images/Bg_blue2.png');
+            video{
+                filter: hue-rotate(187deg);
+            }
+        }
+        &#colibriThree{
+            background-image: url('./src/images/Bg_green2.png');
+            video{
+                filter: hue-rotate(113deg);
+                image-rendering: pixelated;
+                // filter: blur(4px) invert(1) contrast(0.75);
+            }
+        }
+    }
+}
+
